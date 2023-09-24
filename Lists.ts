@@ -1,4 +1,4 @@
-//Lista en TypeScript
+//Lists en TypeScript
 
 var a = [1, 2, 3] //Lista de Numeros interger
 

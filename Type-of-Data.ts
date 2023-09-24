@@ -1,4 +1,4 @@
-// Tipos de Datos en TypeScript
+// Type of Data en TypeScript
 
 //Cadena de Texto - Strings
 

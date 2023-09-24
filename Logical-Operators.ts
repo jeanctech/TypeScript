@@ -1,4 +1,4 @@
-//Operadores Logicos en TypeScript
+// Logical Operators en TypeScript
 
 // Operadores Y
 

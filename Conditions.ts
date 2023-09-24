@@ -1,12 +1,10 @@
-// Condiccionales de TypeScript
+// Conditions de TypeScript
 
 // Condiccionales If
 
-// Version - 0
+let message:boolean = true;
 
-var mostrarMensaje = true;
-
-if(mostrarMensaje) {
+if(message) {
   console.log("Hola Mundo");
 }
 

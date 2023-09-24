@@ -1,6 +1,6 @@
-// Funciones en TypeScript
+// Functions en TypeScript
 
-// Funcion Simple
+// Functions Simple
 
 function square(number) {
     return number * number;
@@ -12,7 +12,7 @@ function suma(numeros){
 
 console.log(suma(10 + 20));
 
-// Funcion en Array
+// Functions in Array
 
 function myFunc(theObject) {
     theObject.make = 'Toyota';
@@ -24,5 +24,4 @@ function myFunc(theObject) {
   x = mycar.make; // x obtiene el valor "Honda"
 
   myFunc(mycar);
-  y = mycar.make; // y obtiene el valor "Toyota"
-                  // (la propiedad make fue cambiada por la función)
+  y = mycar.make; // y obtiene el valor "Toyota" - la propiedad make fue cambiada por la función

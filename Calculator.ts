@@ -1,4 +1,4 @@
-// Calculadora en TypeScript
+// Calculator en TypeScript
 
 if (suma){
     numero1 + numero2
