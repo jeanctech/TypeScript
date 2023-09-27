@@ -1,9 +1,12 @@
 // Calculator en TypeScript
 
-if (suma){
+let numero1:number = 30;
+let numero2:number = 20;
+
+if (sumador){
     numero1 + numero2
+}else{
+    console.log("Invalido")
 }
 
-suma(2 + 1)
-
-console.log(suma)
+console.log(sumador)
