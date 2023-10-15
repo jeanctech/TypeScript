@@ -3,19 +3,19 @@
 //Declaraciones de Variables
 
 //Variables Var
-var variable_uno = 10;
-var variable_dos = 20;
-var variable_tres = variable_uno + variable_dos;
+var variable_uno:number = 10;
+var variable_dos:number = 20;
+var variable_tres:number = variable_uno + variable_dos;
 
 //Variables Let
-let let_uno = 10;
-let let_dos = 20;
-let let_tres = let_uno + let_dos;
+let let_uno:number = 10;
+let let_dos:number = 20;
+let let_tres:number = let_uno + let_dos;
 
 
 //Control de Datos
 
-variable_cuatro = prompt("Cual es tu Edad: ");
+let variable_cuatro = prompt("Cual es tu Edad: ");
 
 if (variable_cuatro < 18) {
 	alert("Menor")}
@@ -23,7 +23,7 @@ else{
 	alert("Mayor")
 }
 
-variable_cinco = 15;
+let variable_cinco = 15;
 
 if (variable_cinco < 18) {
 	console.log("Menor")}
@@ -35,7 +35,7 @@ else{
 
 var user_1 = prompt("Primer Numero ");
 var user_2 = prompt("Segundo Numero ");
-var user_3 = user_1 * user_2;
+var user_3:number = user_1 * user_2;
 
 alert("Tu Resultado es " + user_3);
 
