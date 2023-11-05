@@ -1,4 +1,4 @@
-//TypeScript - Index
+//* Type - TypeScript
 
 let text:string = "Hello Word";
 
