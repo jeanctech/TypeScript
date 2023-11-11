@@ -1,182 +1,52 @@
-// Logical Operators en TypeScript
+//! Logical Operators - TypeScript
 
-// Operadores Y
+/* Logical operators in TypeScript (and many other programming languages) are used to
+perform boolean logic operations. They allow logical expressions to be evaluated and produce a result
+true or false. */
 
-var a = 10 || 20 //Operador Y
+//* Common logical operators:
 
-//Examples
-var valor1 = true;
-var valor2 = false;
-resultado = valor1 && valor2; // resultado = false
+//* `&&` (logical AND - And):
 
-valor1 = true;
-valor2 = true;
-resultado = valor1 && valor2; // resultado = true
+/* The `&&` operator returns `true` if both operands are `true`. If one or both operands are `false`,
+returns `false`. */
 
-// Operadores O
+const a = true;
+const b = false;
 
-var b = 20 && 20 //Operador O
+const reslt = a && b; // result will be false
 
-// Examples
+//* `||` (logical Or - Or):
 
-var valor1 = true;
-var valor2 = false;
-resultado = valor1 || valor2; // resultado = true
+/* The `||` operator returns `true` if at least one of the operands is `true`. Only returns `false` if
+both operands are `false`. */
 
-valor1 = false;
-valor2 = false;
-resultado = valor1 || valor2; // resultado = false
+const c = true;
+const d = false;
 
-// Operadores de Asignacion =
+const result = c || d; // result will be true
 
-var asignacion = "Operador de Asignacion";
-console.log(asignacion);
+//* `!` (Negation - Not):
 
-var numero1 = 4;
-var numero2 = 4;
+// The `!` operator negates the value of an operand, converting `true` to `false` and `false` to `true`.
 
-// Ahora, la variable numero1 vale 6
-numero1 = 6;
+const e = true;
 
-// Ahora, la variable numero1 vale 4
+const resul = !e; // result will be false
 
-numero1 = numero2;
+//* Example of using logical operators in an expression:
 
-console.log(numero1)
+const age = 25;
+const hasLicense = true;
 
+if (age >= 18 && hasLicense) {
+   console.log("Can drive");
+} else {
+   console.log("Can't drive");
+}
 
-// Operador de Incremento - Decremento
+/* In this example, the `&&` operator is used to evaluate two conditions: age greater than or equal to 18 and
+if the person has a license. If both conditions are true, "Can drive" is printed. */
 
-// Incremento
-var numero = 5 ;
-numero = numero + 3;
-console.log(numero);  // numero = 8
-
-// Decremento
-var numero = 4 ;
-numero = numero - 3;
-console.log(numero);  // numero = 1
-
-// Operadores Logicos
-
-// True
-var visible = true;
-console.log(!visible);
-
-// False
-var invisible = false;
-console.log(!invisible);
-
-// Examples
-
-var cantidad = 0;
-vacio = !cantidad;  // vacio = true
-
-var cantidad = 2;
-vacio = !cantidad;  // vacio = false
-
-var mensaje = "";
-mensajeVacio = !mensaje;  // mensajeVacio = true
-
-mensaje = "Bienvenido";
-mensajeVacio = !mensaje;  // mensajeVacio = false
-
-// Operadores Matematicos
-
-// Version - 0
-
-var numero1 = 10;
-var numero2 = 5;
-
-resultado = numero1 / numero2;  // resultado = 2
-resultado = numero1 + numero2; // resultado = 15
-resultado = numero1 - numero2; // resultado = 5
-resultado = numero1 * numero2; // Resultado = 50
-resultado = numero1 % numero2;
-
-console.log(resultado)
-
-// Version - 1
-
-var numero1 = 5;
-numero1 += 3;
-
-console.log(numero1)
-
-// Operadores Relacionales
-
-// Version - 0
-
-var numero1 = 3;
-var numero2 = 5;
-resultado = numero1 > numero2; // resultado = false
-resultado = numero1 < numero2; // resultado = true
-numero1 = 5;
-numero2 = 5;
-resultado = numero1 >= numero2; // resultado = true
-resultado = numero1 <= numero2; // resultado = true
-resultado = numero1 == numero2; // resultado = true
-resultado = numero1 != numero2; // resultado = false
-
-// Version - 1
-
-// El operador "=" asigna valores
-var numero1 = 5;
-resultado = numero1 = 3;  // numero1 = 3 y resultado = 3
-
-// El operador "==" compara variables
-var numero1 = 5;
-resultado = numero1 == 3; // numero1 = 5 y resultado = false
-
-// Version - 2
-
-var texto1 = "hola";
-var texto2 = "hola";
-var texto3 = "adios";
-
-resultado = texto1 == texto3; // resultado = false
-resultado = texto1 != texto2; // resultado = false
-resultado = texto3 >= texto2; // resultado = false
-
-// Practica de Operadores
-
-//Ejerccio
-var valores = [true, 5, false, "hola", "adios", 2];
-
-console.log(valores);
-
-//Operaciones Relacionales
-
-var resultado = valores[3] > valores[4];
-
-console.log(resultado)
-
-// Operaciones Logicas
-var valor1 = valores[0];
-var valor2 = valores[2];
-
-var resultado = valor1 || valor2;
-console.log(resultado);
-
-var resultado = valor1 && valor2;
-console.log(resultado);
-
-// Operaciones matemáticas
-
-var num1 = valores[1];
-var num2 = valores[5];
-
-var suma = num1 + num2;
-console.log(suma);
-
-var resta = num1 - num2;
-console.log(resta);
-
-var multiplicacion = num1 * num2;
-console.log(multiplicacion);
-
-var division = num1 / num2;
-console.log(division);
-
-var modulo = num1 % num2;
-console.log(modulo);
+/* Logical operators are essential for making decisions based on conditions and for controlling
+the flow of a program, allowing complex logic to be built from Boolean evaluations. */

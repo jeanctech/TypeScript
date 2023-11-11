@@ -1,25 +1,47 @@
-// Variables en TypeScript
+//! Variables - TypeScript
 
-//Variable Var
+/* In TypeScript, variables are containers for storing data. They are defined with a keyword
+(`let` or `const`) followed by the variable name and can optionally be assigned a value. */
 
-var variable_1 = 10;
-var variable_2 = 20;
-var variable_3 = variable_1 + variable_2;
+//* Declaration of variables:
 
-console.log(variable_3)
+// `let` and `const`:
 
-//Variables Let
+/*
+- **`let`:** Used for variables that can change their value.
+- **`const`:** Used for constants whose value will not change once assigned.
+*/
 
-let let_1 = 10;
-let let_2 = 20;
-let let_3 = let_1 + let_2;
+let age: number = 30;
+const PI: number = 3.14;
 
-console.log(let_3)
+//* Type Inference:
 
-//Variables Const
+/* TypeScript allows type inference, meaning that the type of the variable can be inferred
+automatically by the value with which it is initialized. */
 
-const const_1 = 10;
-const const_2 = 20;
-const const_3 = const_1 + const_2;
+let message = "Hello, world"; // TypeScript infers that 'message' is of type string
+let number = 42; // TypeScript infers that 'number' is of type number
 
-console.log(const_3)
+//* Variable Types:
+
+/*
+- **number:** To represent numerical values.
+- **string:** To store text strings.
+- **boolean:** Represents logical values, `true` or `false`.
+- **any:** To represent any type.
+- **arrays:** To store a collection of elements of the same type or mixed types.
+- **objects:** To represent a more complex data structure.
+*/
+
+//* Scope of Variables:
+
+/*
+- **Global:** Variables declared outside of functions, accessible throughout the program.
+- **Local:** Variables declared within functions, accessible only within that function.
+- **Block:** Variables declared within blocks (defined by `{}`), such as in loops or conditionals,
+only accessible within that block.
+*/
+
+/* Using variables in TypeScript helps maintain and manipulate data in your program. The correct one
+Type declaration and assignment improve code security and readability. */

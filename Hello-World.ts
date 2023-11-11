@@ -1,5 +1,5 @@
-// Hello World in TypeScript
+//! Hello World - TypeScript
 
-let text:string = "Hello World" // Variable Text Defined as String
+var text = "Hello World" // Variable text with a text "Hello World"
 
-console.log(text) // Prints the Text Variable With its Content
+console.log(text) // Print variable a with the text "Hello World"
