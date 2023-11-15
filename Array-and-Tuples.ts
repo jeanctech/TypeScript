@@ -1,4 +1,4 @@
-//! Array and Tuples - TypeScript
+//* Array and Tuples - TypeScript
 
 /* In TypeScript, arrays and tuples are data structures that allow collections to be stored
 of elements, but they have some key differences in flexibility and type. */
@@ -8,7 +8,7 @@ of elements, but they have some key differences in flexibility and type. */
 /* Arrays are data structures that store elements of the same type, and their size can change
 dynamically. */
 
-// Array example:
+//* Array example:
 
 let numbers: number[] = [1, 2, 3, 4, 5]; // Array of numbers
 let words: string[] = ["Hello", "World"]; // String array
@@ -16,7 +16,7 @@ let words: string[] = ["Hello", "World"]; // String array
 /* Arrays in TypeScript are defined using square brackets `[]` followed by the data type they
 will contain. */
 
-// Tuples:
+//* Tuples:
 
 /* Tuples are data structures that allow storing a fixed collection of elements, where each
 element can have its own type. Unlike arrays, the number of elements and their types

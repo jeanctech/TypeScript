@@ -1,4 +1,4 @@
-//! Data Types - TypeScript
+//* Data Types - TypeScript
 
 /* In TypeScript, as in JavaScript, there are several data types that can be used to
 represent different types of values and entities within a program. Some of the data types

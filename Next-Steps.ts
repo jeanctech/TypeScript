@@ -1,4 +1,4 @@
-//! Next Steps - TypeScript
+//* Next Steps - TypeScript
 
 /* Great that you want to continue learning TypeScript! Here are some suggestions to deepen your
 knowledge: */

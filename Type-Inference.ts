@@ -1,4 +1,4 @@
-//! Type Inference - TypeScript
+//* Type Inference - TypeScript
 
 /* Type inference in TypeScript refers to the compiler's ability to deduce or determine
 the type of a variable according to the value with which it is initialized. TypeScript uses the information

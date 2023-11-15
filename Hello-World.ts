@@ -1,4 +1,4 @@
-//! Hello World - TypeScript
+//* Hello World - TypeScript
 
 var text = "Hello World" // Variable text with a text "Hello World"
 

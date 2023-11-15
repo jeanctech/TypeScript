@@ -1,4 +1,4 @@
-//! Functions - TypeScript
+//* Functions - TypeScript
 
 /* Functions in TypeScript are blocks of code that can be executed and reused to perform
 specific tasks. They can take parameters, perform operations, and return a value. */

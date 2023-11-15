@@ -1,4 +1,4 @@
-//! Object Type Annotations - TypeScript
+//* Object Type Annotations - TypeScript
 
 /* In TypeScript, object type annotations are used to declare the type of an object
 or data structure. These annotations allow the TypeScript compiler to verify and ensure that

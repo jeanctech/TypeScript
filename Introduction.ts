@@ -1,4 +1,4 @@
-//! Introduction - TypeScript
+//* Introduction - TypeScript
 
 /* TypeScript is an open source programming language developed by Microsoft that extends the
 JavaScript capabilities by adding a static type system. Here is an introduction to the
@@ -25,11 +25,12 @@ JavaScript. */
 //* Main features:
 
 /*
-- **Static types:** Defines types for variables, functions, etc., to avoid errors.
-- **Improved Poo:** Supports classes, interfaces, inheritance and other concepts of object-oriented programming.
-- **Decorators:** Allows the addition of metadata to classes, methods, properties, among others.
-- **Structure:** Facilitates the organization and structuring of the code.
-- **Compatibility:** It is compatible with existing JavaScript libraries and frameworks.
+  - **Static types:** Defines types for variables, functions, etc., to avoid errors.
+  - **Improved Poo:** Supports classes, interfaces, inheritance and other concepts of object-oriented
+  programming.
+  - **Decorators:** Allows the addition of metadata to classes, methods, properties, among others.
+  - **Structure:** Facilitates the organization and structuring of the code.
+  - **Compatibility:** It is compatible with existing JavaScript libraries and frameworks.
 */
 
 /* TypeScript is widely used in web application development, especially in

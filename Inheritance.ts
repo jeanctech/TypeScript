@@ -1,4 +1,4 @@
-//! Inheritance - TypeScript
+//* Inheritance - TypeScript
 
 /* In TypeScript, as in other object-oriented languages, inheritance allows a class
 inherit properties and methods from another class. This allows code reuse and the creation of a

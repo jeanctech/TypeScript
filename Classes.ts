@@ -1,4 +1,4 @@
-//!  Classes- TypeScript
+//*  Classes- TypeScript
 
 /* In TypeScript, classes are a fundamental concept of object-oriented programming that gives you
 allows you to define data structures and behaviors in one place. Below is a

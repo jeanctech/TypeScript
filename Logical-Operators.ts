@@ -1,4 +1,4 @@
-//! Logical Operators - TypeScript
+//* Logical Operators - TypeScript
 
 /* Logical operators in TypeScript (and many other programming languages) are used to
 perform boolean logic operations. They allow logical expressions to be evaluated and produce a result
@@ -6,7 +6,7 @@ true or false. */
 
 //* Common logical operators:
 
-//* `&&` (logical AND - And):
+//* `&&` (logical And - And):
 
 /* The `&&` operator returns `true` if both operands are `true`. If one or both operands are `false`,
 returns `false`. */

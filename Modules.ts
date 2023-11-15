@@ -1,4 +1,4 @@
-//! Modules - TypeScript
+//* Modules - TypeScript
 
 /* In TypeScript, modules are a way to organize and structure code in different files,
 allowing encapsulation and reuse of functionality. There are two main approaches to

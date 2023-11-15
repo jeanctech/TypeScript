@@ -1,4 +1,4 @@
-//! Type Annotations - TypeScript
+//* Type Annotations - TypeScript
 
 /* Type annotations in TypeScript are declarations used to specify the type of a
 variable, parameter, object property, or the return type of a function. These type annotations are

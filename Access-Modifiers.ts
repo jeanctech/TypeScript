@@ -1,4 +1,4 @@
-//! Access Modifiers - TypeScript
+//* Access Modifiers - TypeScript
 
 /* In TypeScript, as in other object-oriented languages, access modifiers
 They control the visibility of members of a class, such as properties and methods. These modifiers

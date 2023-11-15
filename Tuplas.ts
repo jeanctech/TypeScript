@@ -1,4 +1,4 @@
-//! Tuplas en TypeScript
+//* Tuplas en TypeScript
 
 /* Las tuplas en TypeScript son arreglos con un número fijo de elementos, donde cada elemento puede ser
 de un tipo diferente. Se definen utilizando corchetes `[]` y especificando los tipos de datos para cada

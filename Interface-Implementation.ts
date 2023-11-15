@@ -1,4 +1,4 @@
-//! Interface Implementation - TypeScript
+//* Interface Implementation - TypeScript
 
 /* In TypeScript, interfaces define the structure that classes or types must follow. For
 To implement an interface in a class, the rules defined by that interface must be followed. */
@@ -21,7 +21,7 @@ class Circle implements Figure {
   }
 }
 
-// In this example:
+//* In this example:
 
 /*
 - The `Circle` class implements the `Figure` interface using the `implements` keyword.

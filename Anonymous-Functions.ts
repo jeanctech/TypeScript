@@ -1,4 +1,4 @@
-//! Anonymous Functions - TypeScript
+//* Anonymous Functions - TypeScript
 
 /* In TypeScript, anonymous functions are those that do not have a name assigned to them and are generally
 They are used in contexts where the identity of the function is not crucial. They are defined using the word

@@ -1,4 +1,4 @@
-//! Interfaces - TypeScript
+//* Interfaces - TypeScript
 
 /* In TypeScript, interfaces are a powerful tool for defining the shape a script should have.
 data structure, such as objects, and specify the form that a type should take. */
@@ -21,7 +21,7 @@ function printPerson(person: Person) {
 const user: Person = { name: "John", age: 30 };
 printPerson(user);
 
-// In this example:
+//* In this example:
 
 /*
 - The `Person` interface is defined that specifies the structure of an object with the `name` properties

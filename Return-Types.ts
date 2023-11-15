@@ -1,4 +1,4 @@
-//! Return Types - TypeScript
+//* Return Types - TypeScript
 
 /* In TypeScript, when defining functions, you can specify the type of data that function will return. This
 It is known as "return type" or "return type". It is good practice to specify this type for

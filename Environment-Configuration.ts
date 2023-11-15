@@ -1,4 +1,4 @@
-//! Environment Configuration - TypeScript
+//* Environment Configuration - TypeScript
 
 /* Setting up the development environment for TypeScript involves installing TypeScript and
 setting up an integrated development environment (IDE) or text editor. Next I'll show you

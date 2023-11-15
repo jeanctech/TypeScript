@@ -1,4 +1,4 @@
-//! Conditionals - TypeScript
+//* Conditionals - TypeScript
 
 /* In TypeScript, just like in JavaScript, you can use conditional structures to control the
 flow of your program. Conditional structures allow you to execute different blocks of code

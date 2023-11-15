@@ -1,4 +1,4 @@
-//! Namespaces - TypeScript
+//* Namespaces - TypeScript
 
 /* In TypeScript, namespaces are a way to organize and structure code,
 providing a wrapper to avoid name collisions and allow modularity. They are useful for

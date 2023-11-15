@@ -1,4 +1,4 @@
-//! Function Overloading - TypeScript
+//* Function Overloading - TypeScript
 
 /* Function overloading in TypeScript allows you to define multiple variants of a function with
 different combinations of parameter types and quantities. This allows you to call a function with

@@ -1,4 +1,4 @@
-//! Using Import and Export - TypeScript
+//* Using Import and Export - TypeScript
 
 /* In TypeScript, using `import` and `export` allows you to work with modules to organize and divide the
 code in multiple files. This facilitates modularity and code reuse. */

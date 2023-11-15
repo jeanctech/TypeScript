@@ -1,4 +1,4 @@
-//! Advantages - TypeScript
+//* Advantages - TypeScript
 
 // TypeScript offers a number of significant advantages for software development:
 

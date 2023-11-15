@@ -1,4 +1,4 @@
-//! Type Annotation in Functions - TypeScript
+//* Type Annotation in Functions - TypeScript
 
 /* In TypeScript, type annotations in functions allow you to specify the types of parameters
 and the return type of a function. This is useful to help the compiler detect errors and
