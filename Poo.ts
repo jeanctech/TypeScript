@@ -1,7 +1,8 @@
-//* Object Oriented Programming - TypeScript
+//* Poo - TypeScript
 
-/* Object Oriented Programming (OOP) in TypeScript is based on the fundamental principles of
-Poo, incorporating concepts such as classes, objects, inheritance, encapsulation, polymorphism and abstraction. */
+/* Programming Object Oriented - Poo in TypeScript is based on the fundamental principles of
+Poo, incorporating concepts such as classes, objects, inheritance, encapsulation, polymorphism and
+abstraction. */
 
 //* Classes:
 

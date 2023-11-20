@@ -1,5 +1,6 @@
 # TypeScript - Documentation
 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 [![ChatGpt](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
 ## What is TypeScript?
@@ -8,7 +9,7 @@ TypeScript is a free and open source programming language developed and maintain
 
 ## Index
 
-* [Introduction](Introduction.ts.ts)
+* [Introduction](Introduction.ts)
 * [Lesson 1 - Hello World](Hello-World.ts)
 * [Lesson 2 - Advantages](Advantages.ts)
 * [Lesson 3 - Environment Configuration](Environment-Configuration.ts)
@@ -28,7 +29,7 @@ TypeScript is a free and open source programming language developed and maintain
 * [Lesson 17 - Anonymous Functions](Anonymous-Functions.ts)
 * [Lesson 18 - Function Overloading](Function-Overloading.ts)
 * [Lesson 19 - Classes](Classes.ts)
-* [Lesson 20 - Object-Oriented-Programming](Object-Oriented-Programming.ts)
+* [Lesson 20 - Poo](Poo.ts)
 * [Lesson 21 - Inheritance](Inheritance.ts)
 * [Lesson 22 - Interfaces](Interfaces.ts)
 * [Lesson 23 - Interface Implementation](Interface-Implementation.ts)
