@@ -1,4 +1,4 @@
-//* Logical Operators - TypeScript
+//? Logical Operators - TypeScript
 
 /* Logical operators in TypeScript (and many other programming languages) are used to
 perform boolean logic operations. They allow logical expressions to be evaluated and produce a result
@@ -36,10 +36,10 @@ const resul = !e; // result will be false
 
 //* Example of using logical operators in an expression:
 
-const age = 25;
+const ages = 25;
 const hasLicense = true;
 
-if (age >= 18 && hasLicense) {
+if (ages >= 18 && hasLicense) {
    console.log("Can drive");
 } else {
    console.log("Can't drive");

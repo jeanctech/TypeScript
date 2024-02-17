@@ -1,4 +1,4 @@
-//* Return Types - TypeScript
+//? Return Types - TypeScript
 
 /* In TypeScript, when defining functions, you can specify the type of data that function will return. This
 It is known as "return type" or "return type". It is good practice to specify this type for
@@ -6,7 +6,7 @@ help the compiler detect errors and improve code readability. */
 
 //* Return type specification:
 
-function sum(a: number, b: number): number {
+function sumS(a: number, b: number): number {
   return a + b;
 }
 
@@ -33,7 +33,7 @@ will return a string. */
 
 // If a function does not return a value, you can specify it using `void`.
 
-function greet(): void {
+function greetS(): void {
   console.log("Hello!");
   // No value is returned explicitly
 }

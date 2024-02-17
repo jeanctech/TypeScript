@@ -1,4 +1,4 @@
-//* Modules - TypeScript
+//? Modules - TypeScript
 
 /* In TypeScript, modules are a way to organize and structure code in different files,
 allowing encapsulation and reuse of functionality. There are two main approaches to
@@ -37,7 +37,7 @@ export function calculateCircumference(diameter: number): number {
 
 // `App.ts` file:
 
-import { PI, calculateCircumference } from './Circle.ts';
+import { PI, calculateCircumferences } from './Circle.ts';
 
 const diameter = 10;
 const circumference = calculateCircumference(diameter);
@@ -52,7 +52,7 @@ in another file, `App.ts`. */
 Geometry.calculateCircumference(10);
 
 // Import from external module
-import { calculateCircumference } from './Circle.ts';
+import { calculateCircumferencess } from './Circle.ts';
 
 /* Modules are essential for organizing and modularizing code in TypeScript applications more
 large, facilitating maintenance, reuse and structuring of functionalities. */

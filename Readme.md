@@ -65,11 +65,11 @@ Thank you very much for all the support shown!
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The editor I am using
 
-* [Node.js](https://nodejs.org/en) - The framework to create our Backend Api
+* [Node.js](https://nodejs.org/en) - Compiler - TypeScript Interpreter
 
-* [React.js](https://es.react.dev/) - The framework to create our Frontend
+* [React.js](https://es.react.dev/) - The framework to create and Frontend with TypeScript
 
-* [Vue.js](https://vuejs.org/) - The framework to create our Frontend Api
+* [Vue.js](https://vuejs.org/) - The framework to create and Frontend with TypeScript
 
 ##
 

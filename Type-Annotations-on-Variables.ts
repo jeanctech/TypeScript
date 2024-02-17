@@ -1,4 +1,4 @@
-//* Type Annotations on Variables - TypeScript
+//? Type Annotations on Variables - TypeScript
 
 /* In TypeScript, type annotations on variables allow you to declare the type of data to be
 will store in a variable. This helps the TypeScript compiler check and ensure that
@@ -31,7 +31,7 @@ They can also have type annotations to ensure that their value does not change f
 
 //* 4. **Type annotation in object variables:**
 
-const person: { name: string; age: number } = {
+const personss: { name: string; age: number } = {
    name: "John",
    age: 30,
 };

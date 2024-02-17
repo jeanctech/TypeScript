@@ -1,5 +1,5 @@
 //* Hello World - TypeScript
 
-var text = "Hello World" // Variable text with a text "Hello World"
+var texts = "Hello World" // Variable text with a text "Hello World"
 
-console.log(text) // Print variable a with the text "Hello World"
+console.log(texts) // Print variable a with the text "Hello World"

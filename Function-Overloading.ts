@@ -9,11 +9,11 @@ different arguments and the compiler automatically selects the most appropriate 
 function showInformation(x: number): void;
 function showInformation(x: string): void;
 function showInformation(x: number | string): void {
-   if (typeof x === "number") {
-     console.log(`Number: ${x}`);
-   } else if (typeof x === "string") {
-     console.log(`String: ${x}`);
-   }
+  if (typeof x === "number") {
+    console.log(`Number: ${x}`);
+  } else if (typeof x === "string") {
+    console.log(`String: ${x}`);
+  }
 }
 
 /* In this example, the `showInformacion` function is defined with two variants: one that accepts a

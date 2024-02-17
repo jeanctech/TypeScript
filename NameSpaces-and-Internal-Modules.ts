@@ -1,4 +1,4 @@
-//* NameSpaces and Internal Modules - TypeScript
+//? NameSpaces and Internal Modules - TypeScript
 
 /* TypeScript, namespaces, and internal modules provide ways to organize and structure the code. Both
 allow related logic to be encapsulated and grouped together to avoid naming conflicts and promoting code

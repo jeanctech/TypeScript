@@ -1,4 +1,4 @@
-//* Object Type Annotations - TypeScript
+//? Object Type Annotations - TypeScript
 
 /* In TypeScript, object type annotations are used to declare the type of an object
 or data structure. These annotations allow the TypeScript compiler to verify and ensure that
@@ -7,7 +7,7 @@ Object types in TypeScript. */
 
 //* 1. **Simple object type annotation:**
 
-const Person : { name: string; age: number } = {
+const persons : { name: string; age: number } = {
   name: "John",
   age: 30,
 };
@@ -20,12 +20,12 @@ respectively. */
 
 // You can define interfaces to describe the shape of an object:
 
-interface person {
+interface persons {
   name: string;
   age: number;
 }
 
-const person1 : person = {
+const persons1 : persons = {
   name: "Anna",
   age: 25,
 };

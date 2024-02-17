@@ -1,4 +1,4 @@
-//* Type Annotation in Functions - TypeScript
+//? Type Annotation in Functions - TypeScript
 
 /* In TypeScript, type annotations in functions allow you to specify the types of parameters
 and the return type of a function. This is useful to help the compiler detect errors and
@@ -7,7 +7,7 @@ functions. */
 
 //* 1. **Type annotation in parameters and return type:**
 
-function sum(a: number, b: number): number {
+function sums(a: number, b: number): number {
   return a + b;
 }
 
@@ -19,7 +19,7 @@ that arguments of the correct type are being passed and that the correct value t
 
 // You can make the parameters of a function optional by adding the question mark `?`:
 
-function greet(name: string, age?: number): string {
+function greets(name: string, age?: number): string {
   if (age !== undefined) {
     return `Hello, ${name}, you are ${age} years old.`;
   } else {

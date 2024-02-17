@@ -1,4 +1,4 @@
-//* Poo - TypeScript
+//? Poo - TypeScript
 
 /* Programming Object Oriented - Poo in TypeScript is based on the fundamental principles of
 Poo, incorporating concepts such as classes, objects, inheritance, encapsulation, polymorphism and
@@ -32,7 +32,7 @@ properties and methods. */
 
 //* Creating an object:
 
-const person1 = new Person("John", 30);
+const persons1 = new Person("John", 30);
 person1.greet(); // Output: "Hello, I'm Juan and I'm 30 years old."
 
 //* Inheritance:

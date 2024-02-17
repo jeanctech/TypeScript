@@ -1,4 +1,4 @@
-//* Array and Tuples - TypeScript
+//? Array and Tuples - TypeScript
 
 /* In TypeScript, arrays and tuples are data structures that allow collections to be stored
 of elements, but they have some key differences in flexibility and type. */

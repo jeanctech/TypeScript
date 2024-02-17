@@ -4,7 +4,7 @@
 allows you to define data structures and behaviors in one place. Below is a
 Basic example of how to define and use classes in TypeScript. */
 
-class Person {
+class person {
   // Properties
   name: string;
   age: number;
@@ -22,7 +22,7 @@ class Person {
 }
 
 // Create an instance of the Person class
-const person1 = new Person("Ana", 30);
+const person1 = new person("Ana", 30);
 
 // Access the properties and methods of the instance
 console.log(person1.name); // Ana
@@ -48,7 +48,7 @@ autocompletion during development. */
 
 //* Here is an example of class inheritance in TypeScript:
 
-class Student extends Person {
+class student extends person1 {
   constructor(name: string, age: number, public grade: string) {
     super(name, age);
   }
@@ -58,7 +58,7 @@ class Student extends Person {
   }
 }
 
-const student1 = new Student("Carlos", 20, "Fourth");
+const student1 = new student("Carlos", 20, "Fourth");
 student1.greet(); // Inherit the method from the Person class
 student1.study(); // Specific method of the Student class
 

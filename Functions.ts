@@ -1,4 +1,4 @@
-//* Functions - TypeScript
+//? Functions - TypeScript
 
 /* Functions in TypeScript are blocks of code that can be executed and reused to perform
 specific tasks. They can take parameters, perform operations, and return a value. */
@@ -13,7 +13,7 @@ function gree(name: string): void {
 }
 
 // Function with Return
-function sum(a: number, b: number): number {
+function sums(a: number, b: number): number {
   return a + b;
 }
 
@@ -26,7 +26,7 @@ function sum(a: number, b: number): number {
 //* Function usage:
 
 greet("John"); // Call to the 'greet' function
-const result = sum(3, 4); // Call to the 'sum' function
+const results = sum(3, 4); // Call to the 'sum' function
 console.log(result); // Print the result of the sum: 7
 
 //* Functions with optional parameters:

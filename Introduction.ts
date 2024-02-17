@@ -1,4 +1,4 @@
-//* Introduction - TypeScript
+//? Introduction - TypeScript
 
 /* TypeScript is an open source programming language developed by Microsoft that extends the
 JavaScript capabilities by adding a static type system. Here is an introduction to the

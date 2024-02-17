@@ -1,4 +1,4 @@
-//* Inheritance - TypeScript
+//? Inheritance - TypeScript
 
 /* In TypeScript, as in other object-oriented languages, inheritance allows a class
 inherit properties and methods from another class. This allows code reuse and the creation of a
@@ -9,11 +9,11 @@ class hierarchy. */
 /* Suppose we have a base class `Vehicle` and we want to create a subclass `Car` that inherits from
 she. */
 
-class Vehicle {
+class vehicle {
   constructor(public flag: string) {}
 
   drive(): void {
-    console.log(`Driving a vehicle ${this.brand}`);
+    console.log(`Driving a vehicle ${this.vehicle}`);
   }
 }
 
@@ -37,7 +37,7 @@ constructor and `speed up` method.
 
 const myCar = new Car("Toyota", "Corolla");
 myCar.drive(); // Method inherited from the Vehicle class
-myCar.accelerate(); // Own method of the Car class
+myCar.speedup(); // Own method of the Car class
 
 //* `super` keyword:
 

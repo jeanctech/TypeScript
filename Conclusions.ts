@@ -1,4 +1,4 @@
-//* Conclusions - TypeScript
+//? Conclusions - TypeScript
 
 /* In conclusion, TypeScript is a programming language that has become an essential tool
 for the development of web applications and software in general. Below is a summary of some of the

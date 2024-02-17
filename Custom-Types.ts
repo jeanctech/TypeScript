@@ -1,4 +1,4 @@
-//* Custom Types - TypeScript
+//? Custom Types - TypeScript
 
 /* In TypeScript, custom types allow you to create specific types that conform to the
 structure and behavior you need in your program. These types can be reused and provide
@@ -40,7 +40,7 @@ type Result = number | string;
 
 //* Type intersection example:
 
-type Employee = {
+type Employe = {
   id: number;
   name: string;
 };

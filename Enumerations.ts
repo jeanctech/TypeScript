@@ -1,4 +1,4 @@
-//* Enumerations - TypeScript
+//? Enumerations - TypeScript
 
 /* Enums in TypeScript are a way to define sets of constants with friendly names,
 making it easier to work with predefined sets of values. Enumerations allow us to represent

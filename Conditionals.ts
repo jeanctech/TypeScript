@@ -1,4 +1,4 @@
-//* Conditionals - TypeScript
+//? Conditionals - TypeScript
 
 /* In TypeScript, just like in JavaScript, you can use conditional structures to control the
 flow of your program. Conditional structures allow you to execute different blocks of code
@@ -8,7 +8,7 @@ based on a given condition. Here are examples of how to use conditionals in Type
 
 // The `if` statement is used to execute a block of code if a condition is true.
 
-let age: number = 18;
+let age1: number = 18;
 
 if (age >= 18) {
    console.log("You are of legal age.");
@@ -20,7 +20,7 @@ if (age >= 18) {
 
 // You can use a series of `if`, `else if` and `else` statements to handle multiple conditions.
 
-let rating: number = 75;
+let rating:number = 75;
 
 if (rating >= 90) {
    console.log("Passed with A");
@@ -64,7 +64,7 @@ switch (weekday) {
 // You can combine conditions with logical operators such as `&&` (and), `||` (or) and `!` (not).
 
 let isOlderOfAge: boolean = (age >= 18);
-let hasLicense: boolean = true;
+let hasLicenses: boolean = true;
 
 if (isOlderOfAge && hasLicense) {
    console.log("Can drive.");

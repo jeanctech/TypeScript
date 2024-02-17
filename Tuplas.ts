@@ -1,38 +1,38 @@
-//* Tuplas en TypeScript
+//* Tuples in TypeScript
 
-/* Las tuplas en TypeScript son arreglos con un número fijo de elementos, donde cada elemento puede ser
-de un tipo diferente. Se definen utilizando corchetes `[]` y especificando los tipos de datos para cada
-posición. */
+/* Tuples in TypeScript are arrays with a fixed number of elements, where each element can be
+of a different kind. They are defined using `[]` square brackets and specifying the data types for each
+position. */
 
-//* Ejemplo de Tupla:
+//* Tuple example:
 
-let persona: [string, number, boolean];
+let persons: [string, number, boolean];
 
-persona = ["Juan", 30, true];
+persons = ["John", 30, true];
 
-/* En este ejemplo, la tupla `persona` tiene tres elementos: el primero es de tipo `string`, el segundo
-de tipo `number` y el tercero de tipo `boolean`. */
+/* In this example, the tuple `person` has three elements: the first is of type `string`, the second
+of type `number` and the third of type `boolean`. */
 
-//* Acceso a Elementos de una Tupla:
+//* Access to Elements of a Tuple:
 
-// Puedes acceder a elementos individuales de una tupla utilizando su índice.
+// You can access individual elements of a tuple using its index.
 
-let nombre: string = persona[0]; // Accede al primer elemento (índice 0)
-let eda: number = persona[1]; // Accede al segundo elemento (índice 1)
-let esAdulto: boolean = persona[2]; // Accede al tercer elemento (índice 2)
+let person: string = persons[0]; // Access the first element (index 0)
+let ages: number = persons[1]; // Access the second element (index 1)
+let isAdults: boolean = persons[2]; // Access the third element (index 2)
 
-//* Asignación y Modificación de Valores en una Tupla:
+//* Assignment and Modification of Values in a Tuple:
 
-persona[0] = "Ana"; // Modifica el primer elemento
-persona[1] = 25; // Modifica el segundo elemento
-persona[2] = false; // Modifica el tercer elemento
+person[0] = "Anna"; // Modify the first element
+person[1] = 25; // Modify the second element
+person[2] = false; // Modify the third element
 
-//* Restricciones y Flexibilidad:
+//* Restrictions and Flexibility:
 
-/* Las tuplas permiten definir la estructura y el tipo de datos en posiciones específicas, lo que
-proporciona una estructura fija y ayuda a mantener la consistencia de datos. Sin embargo, es importante
-utilizarlas con precaución, ya que puede ser menos legible si se usan de manera extensiva o si no se
-manejan con claridad. */
+/* Tuples allow you to define the structure and type of data at specific positions, which
+provides a fixed structure and helps maintain data consistency. However, it is important
+use them with caution, as they may be less readable if used extensively or if not
+They drive clearly. */
 
-/* Las tuplas son útiles para representar datos estructurados y heterogéneos, ofreciendo una forma más
-precisa de trabajar con conjuntos de datos específicos en TypeScript. */
+/* Tuples are useful for representing structured and heterogeneous data, offering a more
+requires working with specific data sets in TypeScript. */

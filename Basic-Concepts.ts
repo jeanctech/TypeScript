@@ -1,4 +1,4 @@
-//! Basic Concepts - TypeScript
+//? Basic Concepts - TypeScript
 
 /* TypeScript is a programming language developed by Microsoft that is based on JavaScript and adds
 static typing features and other improvements to the language. Here are some basics of
@@ -17,7 +17,7 @@ let age: number = 30;
 /* Interfaces are a way to define the shape of an object. You can use them to declare the
 structure of the expected data in a class, function or variable. */
 
-    interface Person {
+    interface person {
       name: string;
       age: number;
     }
