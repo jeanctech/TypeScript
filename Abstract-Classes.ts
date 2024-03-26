@@ -11,7 +11,7 @@ abstract class Figure {
   abstract calculateArea(): number;
 }
 
-class Circle extends Figure {
+class Circles extends Figure {
   constructor(public radius: number, color: string) {
     super(color);
   }
@@ -31,10 +31,10 @@ class Rectangle extends Figure {
   }
 }
 
-const circle = new Circle(5, "red");
+const circles = new Circles(5, "red");
 const rectangle = new Rectangle(4, 6, "blue");
 
-console.log("Circle area: " + circle.calculateArea());
+console.log("Circle area: " + circles.calculateArea());
 console.log("Area of rectangle: " + rectangle.calculateArea());
 
 //* In this example:
