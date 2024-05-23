@@ -1,4 +1,4 @@
-//* Abstract Classes - TypeScript
+//? Abstract Classes - TypeScript
 
 /* In TypeScript, abstract classes are classes that cannot be instantiated by themselves and are
 They are used as templates for other classes that inherit from them. Abstract classes are created using

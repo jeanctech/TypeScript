@@ -1,4 +1,4 @@
-//* Variables - TypeScript
+//? Variables - TypeScript
 
 /* In TypeScript, variables are containers for storing data. They are defined with a keyword
 (`let` or `const`) followed by the variable name and can optionally be assigned a value. */

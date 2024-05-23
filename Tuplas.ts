@@ -1,4 +1,4 @@
-//* Tuples in TypeScript
+//? Tuples in TypeScript
 
 /* Tuples in TypeScript are arrays with a fixed number of elements, where each element can be
 of a different kind. They are defined using `[]` square brackets and specifying the data types for each

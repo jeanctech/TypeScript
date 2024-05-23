@@ -1,4 +1,4 @@
-//* Type - TypeScript
+//? Type - TypeScript
 
 let text:string = "Hello Word";
 

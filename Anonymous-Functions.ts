@@ -6,7 +6,7 @@ They are used in contexts where the identity of the function is not crucial. The
 
 //* Anonymous function example:
 
-let greet = function(name: string): void {
+let greet = function (name: string): void {
   console.log(`Hello, ${name}!`);
 };
 

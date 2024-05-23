@@ -1,4 +1,4 @@
-//* Type Inference - TypeScript
+//? Type Inference - TypeScript
 
 /* Type inference in TypeScript refers to the compiler's ability to deduce or determine
 the type of a variable according to the value with which it is initialized. TypeScript uses the information
@@ -32,10 +32,10 @@ especially when there is not enough information available. In those cases, you m
 manually specify the type. */
 
 let variableUnType; // TypeScript cannot infer a specific type
-variableNoType = "Hello"; // Now it is inferred that it is of type string
+variableUnType = "Hello"; // Now it is inferred that it is of type string
 
 let anotherVariable: any; // It is specified that it can be of any type
-otherVariable = 42; // Now a type number has been assigned
+anotherVariable = 42; // Now a type number has been assigned
 
 /* Type inference is a key feature of TypeScript that simplifies writing code
 by reducing the need to explicitly declare types, as long as the information available
